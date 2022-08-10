@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>CRUD</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-5">Bookstore App</h1>
+      <hr class='w-25 mx-auto'>
+      <form id="firsttask">
+        <div class="mb-3 mx-4">
+          <label class="form-label h5">BookName</label>
+          <input
+            type="text"
+            class="form-control"
+            id="book"
+            placeholder="Enter bookname"
+          />
+        </div>
+        <div class="mb-3 mx-4">
+          <label class="form-label h5">Author Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="book2"
+            placeholder="Enter Author name"
+          />
+        </div>
+        <div class="mb-3 mx-4">
+          <label class="form-label h5">Price</label>
+          <input
+            type="text"
+            class="form-control"
+            id="book3"
+            placeholder="Enter price"
+          />
+        </div>
+
+        <input type="submit" class="btn btn-success mx-4" id="submit" value="Add"/>
+      </form>
+  
+    <div class="records-list">
+      <h2 class="my-4 mx-4">Records</h2>
+      <hr class="w-25 m-4">
+      <div class="records">
+      <!-- <div class="record">
+          <div class="content">
+            <input
+              type="text"
+              value="Bookname"
+              readonly
+              class="text form-control mb-3"
+            />
+            <input
+              type="text"
+              value="Author of book"
+              readonly
+              class="text form-control mb-3"
+            />
+            <input
+              type="text"
+              value="price of book"
+              readonly
+              class="text form-control mb-3"
+            />
+          </div>
+          <div class="buttons">
+            <button class="btn btn-warning">Edit</button>
+            <button class="btn btn-danger">Delete</button>
+          </div>
+        </div>  -->
+        </div>
+      </div>
+    </div>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="crud.js"></script>
+  </body>
+</html>
